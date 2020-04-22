@@ -39,6 +39,10 @@ html {
 	transform: translate(-50%, -50%);
 }
 
+#codeBlocks {
+	visibility: visible;
+}
+
  .bottom {
 	 position: fixed;
 	 left: 50%;
