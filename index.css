@@ -14,24 +14,16 @@ html {
 	 overflow-y: visible;
 	 margin: 0px 0px 1500px
 }
-#name {
-  background-color: #111;
-  color: #E8C162;
-  text-align: center;
-  font-size: 1.8rem;
+#headerName {
   position: fixed;
-	top: 20px;
-	margin: 0;
-	left: 50%;
-	margin-right: 50%;
-	transform: translate(-50%, -50%);
-  width: 200px;
-	height: 200px
-  transition: 0.2s;
+	right: 50%;
+	top: 5px;
+	transform: translate(50%, 0%);
+	margin: 0 auto;
 	visibility: hidden;
 }
 
-#name1 {
+#centerName {
   background-color: #111;
   color: #E8C162;
   font-size: 1.8rem;
@@ -40,21 +32,17 @@ html {
 	margin-top: 10px;
   width: 200px;
 	height: 200px
-  transition: 0.2s;
+	margin: 0;
+	left: 50%;
+	margin-right: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
- .center {
-	 position: absolute;
-	 margin: 0;
-	 left: 50%;
-	 margin-right: 50%;
-	 top: 50%;
-	 transform: translate(-50%, -50%);
-}
  .bottom {
 	 position: fixed;
 	 left: 50%;
-	 bottom: 0px;
+	 bottom: 5px;
 	 transform: translate(-50%, 0%);
 	 margin: 0 auto;
 }
