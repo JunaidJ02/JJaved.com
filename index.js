@@ -9,3 +9,9 @@ function scrollFunction() {
     document.getElementById("centerName").style.visibility = "visible";
   }
 }
+
+function loaded(){
+  if (window.innerWidth < 1000) {
+    document.getElementById("codeBlocks").style.visibility = "hidden";
+  }
+}
