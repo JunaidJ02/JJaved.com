@@ -14,10 +14,9 @@ body {
 
 header {
 	background-color: rgb(14,14,14);
-	color: #ffffff;
 	text-align: center;
 	position: fixed;
-	height: 4vh;
+	height: 7.5vh;
 	top: 5px;
 	width: 100vw;
 }
@@ -43,6 +42,7 @@ header {
 }
 #headerName {
   position: fixed;
+	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	right: 50%;
 	top: 5px;
