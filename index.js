@@ -15,7 +15,7 @@ function scrollFunction() {
 }
 
 function loaded(){
-  if (window.innerWidth < 1000) {
+  if (window.innerWidth < 1500) {
     document.getElementById("codeBlocks").style.visibility = "hidden";
     // document.getElementById("about").style.visibility = "hidden";
     // document.getElementById("contact").style.visibility = "hidden";
