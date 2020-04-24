@@ -3,7 +3,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   var centerName = document.getElementById("centerName");
   var centerNameBounding = centerName.getBoundingClientRect();
-  if (centerNameBounding.top < 10) {
+  if (centerNameBounding.top < 5) {
     document.getElementById("headerName").style.visibility = "visible";
     document.getElementById("centerName").style.visibility = "hidden";
   } else {
