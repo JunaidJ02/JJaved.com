@@ -16,8 +16,10 @@ header {
 	background-color: rgb(14,14,14);
 	text-align: center;
 	position: fixed;
-	height: 4.5vw;
+	padding: 1vw;
+	min-height: 3vw;
 	width: 100vw;
+	overflow: visible;
 }
 #about {
 	position: fixed;
