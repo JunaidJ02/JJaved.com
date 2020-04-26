@@ -49,7 +49,6 @@ header {
 	align-items: center;
 	font-family: 'Raleway', sans-serif;
 	scroll-snap-align: start;
-
 }
 
 #centerName {
@@ -71,36 +70,26 @@ header {
 	visibility: visible;
 }
 
-#aboutMeTitle {
-	background-color: rgba(0, 0, 0, 0);
+#aboutMeSection {
+	background-color: rgba(0,0,0,0);
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	position: relative;
-	left: 10vw;
 	top: 10vh;
-	width: 200px;
-	height: 200px;
+	left: 10vw;
+	max-width: 15vw;
+	height: auto;
+	position: relative;
+	text-align: center;
+}
+
+#aboutMeTitle {
+	color:#E8C162;
+	font-size: 1.8vw;
 }
 
 #aboutMeInfo {
-	background-color: rgba(0, 0, 0, 0);
-	max-width: 15vw;
-	position: relative;
-	left: 8.7vw;
-	top: -5vh;
-	text-align: center;
+	color:#666;
+	font-size: 1.2vw;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .illustration-editor {
 	margin-top: -2rem;
