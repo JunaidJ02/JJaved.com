@@ -136,16 +136,16 @@ header {
 	margin: 0;
 }
 .code-html {
-	left: 240px;
-	top: 310px;
+	left: 14.3vw;
+	top: 20.4vh;
 }
 .code-css {
-	left: 1050px;
-	top: 470px;
+	left: 62.5vw;
+	top: 43.5vh;
 }
 .code-js {
-	left: 340px;
-	top: 640px;
+	left: 20.2vw;
+	top: 65vh;
 }
 .code .code-content {
 	margin: 0 10px 10px;
