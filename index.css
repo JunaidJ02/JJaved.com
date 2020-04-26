@@ -9,7 +9,7 @@ header {
 	position: fixed;
 	padding-top: 1vw;
 	padding-bottom: .7vw;
-	min-height: 3vw;
+	min-height: 5vw;
 	width: 100vw;
 	overflow: visible;
 }
@@ -22,7 +22,7 @@ header {
 	top: 5px;
 	transform: translate(50%, 0%);
 	margin: 0 auto;
-	height: 30px;
+	height: 3vw;
 	z-index: 3;
 	visibility: hidden;
 }
