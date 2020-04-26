@@ -12,6 +12,7 @@ function scrollFunction() {
 }
 
 function loaded(){
+  console.console.log("loaded");
   document.getElementById("header").style.height = document.getElementById("headerName").style.height;
   if (window.innerWidth < 1250) {
     document.getElementById("codeBlocks").style.visibility = "hidden";
