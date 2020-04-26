@@ -32,7 +32,6 @@ header {
 	max-width: 100%;
 	text-align: inherit;
 	max-height: 100vh;
-	position: relative;
 	overflow-y: visible;
 	overflow-x: hidden;
 	scroll-snap-type: y mandatory;
@@ -41,12 +40,12 @@ header {
 #main section {
 	height: 100vh;
 	width: 100vw;
+	position: rela;
 	margin: auto;
 	left: 0
 	right: 0;
 	top: 0;
 	bottom: 0;
-	position: relative;
 	align-items: center;
 	font-family: 'Raleway', sans-serif;
 	scroll-snap-align: start;
@@ -57,25 +56,19 @@ header {
 	background-color: rgba(0,0,0,0);
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	position: absolute;
+	position: relative;
 	align-items: center;
 	margin-top: 10px;
-	width: 10vw;
-	height: 10vh;
+	width: 200px;
+	height: 200px
 	margin: 0;
 	left: 50%;
 	top: 50%;
-	transform: translate(-54%,-50%);
+	transform: translate(-53.9%,-50%);
 }
 
 #codeBlocks {
 	visibility: visible;
-	position: absolute;
-}
-
-#AboutMeSection {
-	text-align: center;
-	max-width: 40vh;
 }
 
 #aboutMeTitle {
@@ -83,7 +76,7 @@ header {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	position: relative;
-	left: -30.7vw;
+	left: 10vw;
 	top: 10vh;
 	width: 200px;
 	height: 200px;
@@ -91,10 +84,10 @@ header {
 
 #aboutMeInfo {
 	background-color: rgba(0, 0, 0, 0);
-	max-width: 5vw;
+	max-width: 15vw;
 	position: relative;
-	left: -30.7vw;
-	top: 12vh;
+	left: 8.7vw;
+	top: -5vh;
 	text-align: center;
 }
 
@@ -143,17 +136,14 @@ header {
 	margin: 0;
 }
 .code-html {
-	position: absolute;
 	left: 14.3vw;
 	top: 20.4vh;
 }
 .code-css {
-	position: absolute;
 	left: 62.5vw;
 	top: 43.5vh;
 }
 .code-js {
-	position: absolute;
 	left: 20.2vw;
 	top: 65vh;
 }
