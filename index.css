@@ -51,6 +51,14 @@ header {
 	scroll-snap-align: start;
 }
 
+#firstSection {
+	background-color: rgb(0,0,0);
+}
+
+#secondSection {
+	background-color: rgb(255,255,255);
+}
+
 #centerName {
 	background-color: rgba(0,0,0,0);
 	font-family: 'Raleway', sans-serif;
