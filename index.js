@@ -16,7 +16,7 @@ function loaded(){
   document.getElementById("header").style.height = document.getElementById("headerName").style.height;
   if (window.innerWidth < 1250) {
     document.getElementById("codeBlocks").style.visibility = "hidden";
-    document.getElementById("aboutMePicture").style.visibility = "hidden";
+    document.getElementById("picture").style.visibility = "hidden";
     var aboutMeInfo = document.getElementById("aboutMeSection");
     centerElement(aboutMeInfo);
 
