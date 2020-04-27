@@ -92,6 +92,7 @@ header {
 	left: 60vw;
 	top: -50vh;
 	position: relative;
+	visibility: visible;
 }
 
 #picture {
