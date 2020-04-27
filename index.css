@@ -137,7 +137,7 @@ header {
 .code {
 	position: absolute;
 	width: 17vw;
-	height: 15vh;
+	height: 9vw;
 	background: #1d1e22;
 	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
 	border-radius: 6px;
