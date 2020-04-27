@@ -18,7 +18,7 @@ function scrollFunction() {
 function loaded(){
   console.log("loaded");
   document.getElementById("codeBlocks").style.visibility = "visible";
-  if (window.innerWidth < 1250) {
+  if (window.innerWidth < 500) {
     document.getElementById("codeBlocks").remove();
     document.getElementById("aboutMePicture").remove()
     document.getElementById("aboutMePicture").style.flexGrow = "0";
