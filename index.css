@@ -36,8 +36,8 @@ header {
 }
 
 #main section {
-	height: 100vh;
-	width: 100vw;
+	height: 100%;
+	width: 100%;
 	overflow: hidden;
 	margin: auto;
 	left: 0
@@ -72,7 +72,7 @@ header {
 	font-family: 'Raleway', sans-serif;
 	top: 10vh;
 	left: 10vw;
-	max-width: 15vw;
+	max-width: 20vw;
 	height: auto;
 	position: relative;
 	text-align: center;
@@ -80,24 +80,23 @@ header {
 
 #aboutMeTitle {
 	color:#E8C162;
-	font-size: 1.8vw;
+	font-size: calc(18px + (25 - 18) * ((100vw - 750px) / (1250 - 750)));
 }
 
 #aboutMeInfo {
 	color:#666;
-	font-size: 1.2vw;
+	font-size: calc(16px + (20 - 16) * ((100vw - 750px) / (1250 - 750)));
 }
 
 #aboutMePicture {
 	left: 60vw;
-	top: -61vh;
+	top: -50vh;
 	position: relative;
 }
 
 #picture {
-	padding-top: 150%
 	width: 30vw;
-	height: 70vh;
+	height: auto;
 }
 
 .illustration-editor {
