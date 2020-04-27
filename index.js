@@ -21,14 +21,8 @@ function loaded(){
   if (window.innerWidth < 1250) {
     document.getElementById("codeBlocks").remove();
     document.getElementById("aboutMePicture").remove()
-    var aboutMeInfo = document.getElementById("aboutMeSection");
-    centerElement(aboutMeInfo);
-
+    document.getElementById("aboutMePicture").style.flexGrow = "0";
+  } else {
+    document.getElementById("aboutMeSection").style.left = "10%";
   }
-}
-
-function centerElement(el) {
-  el.style.left = "50%";
-  el.style.top = "50%";
-  el.style.transform = "translate(-50%,-50%)";
 }
