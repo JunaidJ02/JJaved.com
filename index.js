@@ -1,21 +1,8 @@
-function scrollFunction() {
-  var centerName = document.getElementById("centerName");
-  var centerNameBounding = centerName.getBoundingClientRect();
-  if (centerNameBounding.top < 4) {
-    console.log()
-    document.getElementById("headerName").style.visibility = "visible";
-    document.getElementById("centerName").style.visibility = "hidden";
-  } else {
-    document.getElementById("headerName").style.visibility = "hidden";
-    document.getElementById("centerName").style.visibility = "visible";
-  }
-}
-
 function loaded(){
   console.log("loaded");
   document.getElementById("codeBlocks").style.visibility = "visible";
   if (window.innerWidth < 1250) {
-    document.getElementById("codeBlocks").style.visibility = "hidden";
+    document.getElementById("codeBlocks").remove();
     document.getElementById("aboutMePicture").remove()
     var aboutMeInfo = document.getElementById("aboutMeSection");
     centerElement(aboutMeInfo);
