@@ -1,7 +1,7 @@
 function scrollFunction() {
   var centerName = document.getElementById("centerName");
   var centerNameBounding = centerName.getBoundingClientRect();
-  if (centerNameBounding.top < 5) {
+  if (centerNameBounding.top < 4) {
     console.log()
     document.getElementById("headerName").style.visibility = "visible";
     document.getElementById("centerName").style.visibility = "hidden";
@@ -13,10 +13,10 @@ function scrollFunction() {
 
 function loaded(){
   console.log("loaded");
-  document.getElementById("codeBlocks").style.visibility = "hidden";
+  document.getElementById("codeBlocks").style.visibility = "visible";
   if (window.innerWidth < 1250) {
     document.getElementById("codeBlocks").style.visibility = "hidden";
-    document.getElementById("aboutMePicture").remove();
+    document.getElementById("aboutMePicture").remove()
     var aboutMeInfo = document.getElementById("aboutMeSection");
     centerElement(aboutMeInfo);
 
