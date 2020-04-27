@@ -13,9 +13,11 @@ function scrollFunction() {
 
 function loaded(){
   console.log("loaded");
-  document.getElementById("header").style.height = document.getElementById("headerName").style.height;
+  document.getElementById("codeBlocks").style.visibility = "hidden";
+  document.getElementById("aboutMeTitle").innerHTML = ("" + window.innerWidth);
   if (window.innerWidth < 1250) {
     document.getElementById("codeBlocks").style.visibility = "hidden";
+    document.getElementById("aboutMePicture").style.visibility = "hidden";
     document.getElementById("picture").style.visibility = "hidden";
     var aboutMeInfo = document.getElementById("aboutMeSection");
     centerElement(aboutMeInfo);
