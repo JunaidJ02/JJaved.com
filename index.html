@@ -1,5 +1,4 @@
 <html>
-
   <body onload="loaded()">
     <head>
       <title>Junaid Javed</title>
@@ -16,8 +15,8 @@
       </header>
     </head>
     <div onscroll="scrollFunction()" id="main">
-      <!-- First Section -->
-      <section id="firstSection">
+      <!-- Main Section -->
+      <section id="Main">
         <div id="centerName">
           <span>J U N A I D <br> J A V E D</span>
         </div>
@@ -80,8 +79,8 @@
           </div>
         </div>
       </section>
-      <!-- Second Section -->
-      <section id="secondSection">
+      <!-- About Me Section -->
+      <section id="AboutMe">
         <div id="aboutMeSection">
           <span id="aboutMeTitle">ABOUT ME</span>
           <span id="aboutMeInfo">
@@ -103,7 +102,8 @@
           <img src="Junaid Javed-2.png" id="personalPicture"></img>
         </div>
       </section>
-      <section id="thirdSection">
+      <!-- Experience Section -->
+      <section id="Experience">
         <div id="Pluto">
           <img src="plutoPicture.png" id="plutoPicture"></img>
           <a href="http://www.plutostudios.tech">
@@ -144,6 +144,17 @@
           </div>
         </div>
       </section>
+      <!-- Contact Me Section -->
+      <section class="ContactMe">
+        <div id="contactMeSection">
+          <h1>Contact Me</h1>
+          <input onchange="changing()" type="text" id="name" class="name" placeholder="Your Name">
+          <input onchange="changing()" type="email" id="email" class="email" placeholder="Your Email">
+          <textarea onchange="changing()" rows="1" placeholder="Message" class="message"></textarea>
+          <button onclick="onClickButton()" id="contactButton">Contact Me!</button>
+        </div>
+      </section>
     </div>
+    <footer id="footer"></footer>
   </body>
 </html>
