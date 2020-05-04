@@ -8,21 +8,28 @@ function scrollFunction() {
     document.getElementById("headerName").style.visibility = "hidden";
     document.getElementById("centerName").style.visibility = "visible";
   }
-
-  if (document.getElementById("main").scrollTop > 200) {
-    console.log("transitioning");
-    document.getElementById("aboutMePicture").className = "slideUp";
-  }
 }
 
 function loaded(){
-  console.log("loaded");
   document.getElementById("codeBlocks").style.visibility = "visible";
   if (window.innerWidth < 1250) {
     document.getElementById("codeBlocks").remove();
     document.getElementById("aboutMePicture").remove()
-    document.getElementById("aboutMePicture").style.flexGrow = "0";
+  }
+}
+
+function changing() {
+  var button = document.getElementById("contactButton");
+  button.innerHTML = "Contact Me!"
+}
+
+function onClickButton() {
+  var name = document.getElementById("name");
+  var email = document.getElementById("email");
+  var button = document.getElementById("contactButton");
+  if (name.value == "" || email.value == "") {
+    button.innerHTML = "Fill in all items";
   } else {
-    document.getElementById("aboutMeSection").style.left = "10%";
+    button.innerHTML = "Sent!";
   }
 }
