@@ -28,7 +28,7 @@ function onClickButton() {
   var email = document.getElementById("email");
   var message = document.getElementById("message");
   var button = document.getElementById("contactButton");
-  if (name.value == "" || email.value == "" || message.value == "") {
+  if (name.value == "" || email.value == "" || message.value == '') {
     button.innerHTML = "Fill in all items";
   } else {
     button.innerHTML = "Sent!";
