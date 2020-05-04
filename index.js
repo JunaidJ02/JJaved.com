@@ -14,7 +14,6 @@ function loaded(){
   document.getElementById("codeBlocks").style.visibility = "visible";
   if (window.innerWidth < 1250) {
     document.getElementById("codeBlocks").remove();
-    document.getElementById("aboutMePicture").remove()
   }
 }
 
