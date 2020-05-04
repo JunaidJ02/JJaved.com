@@ -15,7 +15,7 @@ header {
 	background-color: rgb(14,14,14);
 	align-items: center;
 	position: absolute;
-	min-height: 5.5vw;
+	min-height: 4.5vw;
 	width: 100%;
 	overflow: hidden;
 	z-index: -1;
@@ -97,9 +97,10 @@ header {
 	width: 25vw;
 	float: right;
 	padding-right: 10%;
+	top: 37%;
+	transform: translate(0, -50%);
 	position: relative;
 	visibility: visible;
-	flex-grow: 1;
 }
 
 #personalPicture {
