@@ -308,11 +308,6 @@ header {
 	}
 }
 
-#footer {
-	background-color: blue;
-	height: 50px;
-}
-
 .slideUp {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
