@@ -11,6 +11,19 @@ a {
 	text-decoration: none;
 }
 
+a:link {
+    color: #E8C162;
+}
+a:visited {
+    color: #E8C162;
+}
+a:hover {
+    color: #E8C162;
+}
+a:active {
+    color: #E8C162;
+}
+
 header {
 	background-color: rgb(14,14,14);
 	align-items: center;
