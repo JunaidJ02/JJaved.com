@@ -16,6 +16,7 @@ function loaded(){
     document.getElementById("codeBlocks").remove();
     document.getElementById("AboutMe").remove();
     document.getElementById("Experience").remove();
+    document.getElementById("name").remove();
   }
 }
 
