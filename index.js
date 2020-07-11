@@ -12,11 +12,7 @@ function scrollFunction() {
 
 function loaded(){
   document.getElementById("codeBlocks").style.visibility = "visible";
-  document.getElementById("jewelName").style.visibility = "hidden";
-  document.getElementById("name").style.visibility = "visible";
   if (window.innerWidth < 1250) {
-    document.getElementById("jewelName").style.visibility = "visible";
-    document.getElementById("name").style.visibility = "hidden";
     document.getElementById("codeBlocks").remove();
     document.getElementById("AboutMe").remove();
     document.getElementById("Experience").remove();
